@@ -269,3 +269,21 @@ a:hover {
 aside a:hover {
     color: #7fdbff;
 }
+
+.soft-skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.5rem;
+}
+
+.soft-skills li {
+    background: #f5f5f5;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.soft-skills li:hover {
+    transform: scale(1.05);
+    background: #e6f2ff;
+}
