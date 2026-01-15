@@ -293,9 +293,13 @@ aside a:hover {
 #soft-skills {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    
+
 }
 .soft-skills {
     list-style: none;
     padding-left: 0;
+}
+
+h2 {
+    padding-left: 1.5rem;
 }
