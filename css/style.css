@@ -89,23 +89,6 @@ main {
     padding: 2rem 1rem;
 }
 
-main h2 {
-    color: var(--bg-aside);
-    margin-bottom: 1rem;
-    position: relative;
-    padding-bottom: 0.5rem;
-}
-
-main h2::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 60px;
-    height: 4px;
-    background: var(--accent);
-}
-
 article {
     margin-bottom: 2rem;
     padding-bottom: 1rem;
@@ -227,10 +210,6 @@ aside h2:hover {
     color: #00bfff;
 }
 
-main h2:hover {
-    color: var(--accent);
-}
-
 article:hover h3,
 article:hover p {
     color: var(--accent);
@@ -256,10 +235,6 @@ h2 {
 }
 aside h2:hover {
     color: #00bfff;
-}
-
-main h2:hover {
-    color: #0056b3;
 }
 
 a:hover {
@@ -300,6 +275,29 @@ aside a:hover {
     padding-left: 0;
 }
 
-h2 {
+main h2,
+main h3 {
+    color: var(--bg-aside);
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    position: relative;
+    padding-bottom: 0.5rem;
     padding-left: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+main h2::after,
+main h3::after {
+    content: '';
+    position: absolute;
+    left: 1.5rem;
+    bottom: 0;
+    width: 60px;
+    height: 4px;
+    background: var(--accent);
+}
+
+main h2:hover,
+main h3:hover {
+    color: var(--accent);
 }
