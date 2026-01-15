@@ -287,3 +287,10 @@ aside a:hover {
     transform: scale(1.05);
     background: #e6f2ff;
 }
+
+#formation,
+#skills,
+#soft-skills {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
