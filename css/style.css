@@ -128,7 +128,7 @@ a:focus {
 }
 
 .progress {
-    flex: 1;
+    flex: 0 0 150px;
     height: 12px;
     background: rgba(255,255,255,0.3);
     border-radius: 6px;
@@ -151,7 +151,7 @@ a:focus {
 @media (min-width: 768px) {
     .container {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1.3fr 2fr;
         max-width: 1200px;
         margin: 0 auto;
     }
