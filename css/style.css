@@ -1,6 +1,6 @@
 :root {
     --bg-main: #ffffff;
-    --bg-aside: #001f3f;
+    --bg-aside: #162962;
     --text-light: #ffffff;
     --text-dark: #333333;
     --accent: #007bff;
@@ -128,7 +128,7 @@ a:focus {
 }
 
 .progress {
-    flex: 0 0 150px;
+    flex: 0 0 120px;
     height: 12px;
     background: rgba(255,255,255,0.3);
     border-radius: 6px;
