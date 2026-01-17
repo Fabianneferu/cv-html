@@ -74,12 +74,6 @@ aside ul {
     list-style: none;
 }
 
-aside li {
-    margin-bottom: 0.8rem;
-    position: relative;
-    padding-left: 1.5rem;
-}
-
 .icon {
     position: absolute;
     left: 0;
@@ -179,12 +173,6 @@ aside a:hover, aside a:focus {
     color: #7fdbff;
     text-decoration: underline;
 }
-aside li {
-    margin-bottom: 0.8rem;
-    position: relative;
-    padding-left: 1.5rem;
-    transition: color 0.3s ease, transform 0.2s ease;
-}
 
 aside li:hover {
     color: #a0d8ff;
@@ -203,9 +191,18 @@ article:hover p {
     color: var(--accent);
     transition: color 0.3s ease;
 }
+
 aside li {
-    transition: all 0.3s ease;
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.8rem;
     cursor: default;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+aside li:hover {
+    color: #a0d8ff;
+    transform: translateX(8px);
 }
 
 aside li:hover {
