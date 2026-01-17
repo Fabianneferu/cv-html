@@ -182,14 +182,15 @@ h2 {
     transition: color 0.3s ease;
 }
 
-aside h2:hover {
-    color: #00bfff;
+aside h2 {
+    color: var(--accent);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
 }
 
-article:hover h3,
-article:hover p {
-    color: var(--accent);
-    transition: color 0.3s ease;
+aside h2:hover {
+    color: #00bfff;
 }
 
 aside li {
@@ -218,9 +219,6 @@ aside a:hover, aside a:focus {
 h2 {
     transition: color 0.3s ease;
 }
-aside h2:hover {
-    color: #00bfff;
-}
 
 a:hover {
     color: #0056b3;
@@ -248,13 +246,10 @@ aside a:hover {
     background: #e6f2ff;
 }
 
-#formation,
-#skills,
-#soft-skills {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-
+section {
+    padding-inline: 1.5rem;
 }
+
 .soft-skills {
     list-style: none;
     padding-left: 0;
