@@ -302,3 +302,11 @@ aside a:focus {
     color: #7fdbff;
     text-decoration: underline;
 }
+
+.trabajo {
+    font-size: 1rem;      
+    font-weight: 600;     
+    color: #333;          
+    margin: 0.2rem 0;     
+    padding: 0;
+}
