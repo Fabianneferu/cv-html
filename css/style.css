@@ -111,21 +111,6 @@ main {
     color: #555;
 }
 
-
-a {
-    color: var(--accent);
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-a:hover, a:focus {
-    color: #0056b3;
-}
-
-a:focus {
-    outline: 2px dotted var(--accent);
-}
-
 .language-list li {
     display: flex;
     align-items: center;
@@ -188,15 +173,6 @@ a:focus {
     .progress { border: 1px solid black; }
     .bar { background: black; }
     article:hover { transform: none; box-shadow: none; }
-}
-a {
-    color: var(--accent);
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover, a:focus {
-    color: #00bfff;
 }
 
 aside a:hover, aside a:focus {
@@ -312,4 +288,25 @@ main h3::after {
 main h2:hover,
 main h3:hover {
     color: var(--accent);
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+    color: #0056b3;
+}
+
+a:focus {
+    outline: 2px dotted var(--accent);
+}
+
+aside a:hover,
+aside a:focus {
+    color: #7fdbff;
+    text-decoration: underline;
 }
