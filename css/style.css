@@ -89,17 +89,28 @@ main {
     padding: 2rem 1rem;
 }
 
-article {
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid var(--border);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+#experience article {
+    margin-bottom: 1.2rem;
+    padding: 0;
+    border: none;
+    box-shadow: none;
 }
 
-article:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+#experience article:hover {
+    transform: none;
+    box-shadow: none;
 }
+
+#experience h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
+}
+
+#experience p {
+    margin-left: 1.5rem;
+    color: #555;
+}
+
 
 a {
     color: var(--accent);
