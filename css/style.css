@@ -162,10 +162,6 @@ aside a:hover, aside a:focus {
     text-decoration: underline;
 }
 
-aside li:hover {
-    color: #a0d8ff;
-    transform: translateX(8px);
-}
 h2 {
     transition: color 0.3s ease;
 }
@@ -191,21 +187,7 @@ aside li {
 
 aside li:hover {
     color: #a0d8ff;
-    transform: translateX(8px);
-}
-
-aside li:hover {
-    color: #a0d8ff;
     transform: translateX(10px);
-}
-
-aside a:hover, aside a:focus {
-    color: #7fdbff;
-    text-decoration: underline;
-}
-
-h2 {
-    transition: color 0.3s ease;
 }
 
 a:hover {
@@ -292,24 +274,4 @@ aside a:focus {
     color: #333;          
     margin: 0.2rem 0;     
     padding: 0;
-}
-
-.language-list li {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
-    font-size: 1rem;
-}
-
-.language-list span {
-    flex-shrink: 0;
-    width: 90px;
-}
-
-body {
-    font-family: 'Poppins', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
-    background: var(--bg-main);
-    color: var(--text-dark);
-    line-height: 1.6;
 }
