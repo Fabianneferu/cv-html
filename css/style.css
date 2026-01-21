@@ -212,10 +212,6 @@ a {
     text-decoration: none;
     transition: color 0.3s ease;
 }
-a:hover,
-a:focus {
-    color: #0056b3;
-}
 a:focus {
     outline: 2px dotted var(--accent);
 }
