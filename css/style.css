@@ -6,21 +6,17 @@
     --accent: #007bff;
     --border: #cccccc;
 }
-
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: 'Poppins', sans-serif;
     background: var(--bg-main);
     color: var(--text-dark);
     line-height: 1.6;
 }
-
 header {
     background: var(--bg-aside);
     color: var(--text-light);
@@ -28,7 +24,6 @@ header {
     padding: 2rem 1rem;
     position: relative;
 }
-
 .header-photo {
     width: 150px;
     height: 150px;
@@ -37,74 +32,60 @@ header {
     border: 5px solid var(--text-light);
     margin: 0 auto 1rem;
 }
-
 .header-photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
 h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
 }
-
 .birthdate {
     font-size: 1.1rem;
 }
-
 .container {
     display: flex;
     flex-direction: column;
 }
-
 aside {
     background: var(--bg-aside);
     color: var(--text-light);
     padding: 2rem 1rem;
 }
-
 aside h2 {
     color: var(--accent);
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
-
 aside ul {
     list-style: none;
 }
-
 .icon {
     position: absolute;
     left: 0;
 }
-
 main {
     padding: 2rem 1rem;
 }
-
 #experience article {
     margin-bottom: 1.2rem;
     padding: 0;
     border: none;
     box-shadow: none;
 }
-
 #experience article:hover {
     transform: none;
     box-shadow: none;
 }
-
 #experience h3 {
     font-size: 1.1rem;
     margin-bottom: 0.2rem;
 }
-
 #experience p {
     margin-left: 1.5rem;
     color: #555;
 }
-
 .progress {
     flex: 0 0 120px;
     height: 12px;
@@ -113,20 +94,16 @@ main {
     overflow: hidden;
     margin: 0 1rem;
 }
-
-
 .bar {
     height: 100%;
     background: var(--accent);
     border-radius: 6px;
     transition: width 1s ease-in-out;
 }
-
 .full { width: 100%; }
 .high { width: 85%; }
 .basic { width: 30%; }
 .hsk2 { width: 20%; background: #aaa; }
-
 @media (min-width: 768px) {
     .container {
         display: grid;
@@ -148,7 +125,6 @@ main {
         grid-column: 2;
     }
 }
-
 @media print {
     body, aside, header { background: white; color: black; }
     a::after { content: " (" attr(href) ")"; font-size: 0.8em; }
@@ -157,27 +133,22 @@ main {
     .bar { background: black; }
     article:hover { transform: none; box-shadow: none; }
 }
-
 aside a:hover, aside a:focus {
     color: #7fdbff;
     text-decoration: underline;
 }
-
 h2 {
     transition: color 0.3s ease;
 }
-
 aside h2 {
     color: var(--accent);
     margin-bottom: 1rem;
     font-size: 1.5rem;
     transition: color 0.3s ease;
 }
-
 aside h2:hover {
     color: #00bfff;
 }
-
 aside li {
     position: relative;
     padding-left: 1.5rem;
@@ -185,41 +156,33 @@ aside li {
     cursor: default;
     transition: color 0.3s ease, transform 0.3s ease;
 }
-
 aside li:hover {
     color: #a0d8ff;
     transform: translateX(10px);
 }
-
 a:hover {
     color: #0056b3;
 }
-
 aside a:hover {
     color: #7fdbff;
 }
-
 .soft-skills {
     list-style: disc;
     padding-left: 2.5rem;
 }
-
 .soft-skills li {
     margin-bottom: 0.5rem;
     background: none;
     padding: 0;
     border-radius: 0;
 }
-
 section {
     padding-inline: 1.5rem;
 }
-
 .soft-skills {
     list-style: disc;
     padding-left: 0;
 }
-
 main h2,
 main h3 {
     color: var(--bg-aside);
@@ -230,7 +193,6 @@ main h3 {
     padding-left: 1.5rem;
     transition: color 0.3s ease;
 }
-
 main h2::after,
 main h3::after {
     content: '';
@@ -241,33 +203,27 @@ main h3::after {
     height: 4px;
     background: var(--accent);
 }
-
 main h2:hover,
 main h3:hover {
     color: var(--accent);
 }
-
 a {
     color: var(--accent);
     text-decoration: none;
     transition: color 0.3s ease;
 }
-
 a:hover,
 a:focus {
     color: #0056b3;
 }
-
 a:focus {
     outline: 2px dotted var(--accent);
 }
-
 aside a:hover,
 aside a:focus {
     color: #7fdbff;
     text-decoration: underline;
 }
-
 .trabajo {
     font-size: 1rem;      
     font-weight: 600;     
@@ -275,20 +231,16 @@ aside a:focus {
     margin: 0.2rem 0;     
     padding: 0;
 }
-
 li.quieto {
     margin-bottom: 1.2rem;
 }
-
 li.quieto:hover {
     transform: none;
     color: inherit;
 }
- 
 html {
     scroll-behavior: smooth;
 }
-
 #arriba {
     position: fixed;
     bottom: 60px;
@@ -298,7 +250,6 @@ html {
     padding: 18px 24px;
     border-radius: 100%;
 }
-
 #arriba:hover {
     background-color: #468fdd;
 }
