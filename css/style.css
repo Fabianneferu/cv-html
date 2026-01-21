@@ -276,6 +276,7 @@ aside a:focus {
     padding: 0;
 }
 
-.quieto li:hover {
-    transform: none;
+li.li1:hover {
+    transform: none; /* ya no se mueve */
+    color: #a0d8ff;  /* puedes mantener el cambio de color si quieres */
 }
