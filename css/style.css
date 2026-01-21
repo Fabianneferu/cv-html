@@ -193,13 +193,12 @@ main h3 {
     padding-left: 1.5rem;
     transition: color 0.3s ease;
 }
-main h2::after,
-main h3::after {
+main h2::after {
     content: '';
     position: absolute;
     left: 1.5rem;
     bottom: 0;
-    width: 60px;
+    width: 30px;
     height: 4px;
     background: var(--accent);
 }
