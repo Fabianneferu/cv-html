@@ -253,3 +253,6 @@ html {
     align-items: center;
     gap: 0.6rem;
 }
+#idiomas li span {
+    min-width: 90px;
+}
