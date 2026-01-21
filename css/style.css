@@ -284,3 +284,7 @@ li.quieto:hover {
     transform: none;
     color: inherit;
 }
+ 
+html {
+    scroll-behavior: smooth;
+}
