@@ -275,3 +275,6 @@ aside a:focus {
     margin: 0.2rem 0;     
     padding: 0;
 }
+li.quieto {
+    margin-bottom: 1.2rem;
+}
