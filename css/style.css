@@ -256,3 +256,8 @@ html {
 #idiomas li span {
     min-width: 90px;
 }
+#idiomas li .progress {
+    flex: 0 0 110px;
+    height: 12px;
+    margin: 0;
+}
