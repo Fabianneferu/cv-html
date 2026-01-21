@@ -133,6 +133,7 @@ main {
         grid-template-columns: 1.3fr 2fr;
         max-width: 1200px;
         margin: 0 auto;
+        gap: 2rem;
     }
 
     header {
@@ -209,7 +210,6 @@ aside a:hover {
     padding: 0;
     border-radius: 0;
 }
-
 
 section {
     padding-inline: 1.5rem;
