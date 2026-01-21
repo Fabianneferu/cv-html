@@ -177,7 +177,7 @@ aside a:hover {
     border-radius: 0;
 }
 section {
-    padding-inline: 1.5rem;
+    padding-inline: 1rem;
 }
 .soft-skills {
     list-style: disc;
@@ -186,7 +186,7 @@ section {
 main h2,
 main h3 {
     color: var(--bg-aside);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     margin-top: 3rem;
     position: relative;
     padding-bottom: 0.5rem;
