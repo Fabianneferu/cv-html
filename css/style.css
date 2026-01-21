@@ -102,9 +102,9 @@ main {
 }
 .full { width: 100%; }
 .high { width: 85%; }
-.basic { width: 30%; }
-.hsk2 { width: 20%; background: #aaa; }
-@media (min-width: 768px) {
+.basic { width: 20%; }
+.hsk2 { width: 20%; background: #007bff; }
+@media (min-width: 600px) {
     .container {
         display: grid;
         grid-template-columns: 1.3fr 2fr;
