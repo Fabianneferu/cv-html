@@ -288,3 +288,11 @@ li.quieto:hover {
 html {
     scroll-behavior: smooth;
 }
+
+#arriba {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+}
